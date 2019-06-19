@@ -1,4 +1,4 @@
 # Programming_Bootloader_MB96F646
-I wrote this bootloader when working at CheckSum. The bootloader is uploaded into the RAM of the MB96F646 using the Serial Communication Mode. Once running, the bootloader communicates with CheckSum's programmer hardware via UART. The bootloader receives commands to perform operations on the flash memory such as erase, program, read, or blank check. After receiving a command, the bootloader performs the appropriate operation and then reports success or failure.
+I wrote this bootloader when working at CheckSum. The bootloader is uploaded into the RAM of the MB96F646 microcontroller using the Serial Communication Mode. Once running, the bootloader communicates with CheckSum's programmer hardware via UART. The bootloader receives commands to perform operations on the flash memory such as erase, program, read, or blank check. After receiving a command, the bootloader performs the appropriate operation and then reports success or failure.
 
 I started with a general template project found on the Cypress website and adapted it to run in RAM rather than flash to fit my application.
